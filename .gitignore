@@ -1,0 +1,75 @@
+# Ignorar carpetas y archivos generados por PyCharm
+.idea/
+*.iml
+
+# Ignorar entornos virtuales de Python
+venv/
+ENV/
+env/
+.venv/
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignorar logs, bases de datos y otros archivos temporales
+*.log
+*.sqlite3
+*.db
+*.dat
+*.sqlite
+*.bak
+*.exe
+
+archivos/
+
+# Ignorar archivos de paquetes
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+*.manifest
+*.spec
+wheels/
+share/python-wheels/
+*.pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar archivos de pruebas
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Ignorar archivos de configuración de herramientas
+*.pylint.d
+*.mypy_cache/
+.dmypy.json
+.dmypy.json.5
+.pyre/
+
+# Ignorar carpetas o archivos generados por tu script
+archivos/
+
+# Ignorar archivos de caché de Jupyter Notebooks
+.ipynb_checkpoints
+
+# Ignorar archivos de configuraciones y resultados de análisis estático
+.pyright/
+ruff_cache/
+pylint_output.log
+
+# Ignorar archivos de distribución de Python
+*.whl
+
+# Ignorar archivos de lock o dependencia
+Pipfile.lock
+poetry.lock
